@@ -1,0 +1,3 @@
+<view bind:touchstart="start" bind:touchmove="move" bind:touchend="end" class="weapp-swipe">
+  <slot></slot>
+</view>

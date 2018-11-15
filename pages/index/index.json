@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "swipe": "/components/swipe/swipe"
+  }
+}

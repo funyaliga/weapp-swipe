@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <swipe
+    bind:swipe="swipe"
+    bind:swipeup="swipeup"
+    bind:swipedown="swipedown"
+    bind:swiperight="swiperight"
+    bind:swipeleft="swipeleft"
+  >
+    <view class="ct {{class}}">
+      <view class="in"><text>{{text}}</text></view>
+      <view class="bg1" style="background-color: {{nextColor}}"></view>
+      <view
+        class="bg2"
+        animation="{{animationData}}"
+        style="width: 0; height: 0; backgroundColor: {{preColor}}"
+      ></view>
+    </view>
+  </swipe>
+</view>
